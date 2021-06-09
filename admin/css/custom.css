@@ -9,3 +9,102 @@ form.user option[value=""][disabled] {
 form.user option {
   color: #000 !important;
 }
+
+.nav-link.active {
+  color: #333;
+}
+
+.z-index-2 {
+  z-index: 2
+}
+
+.btn-general {
+  border-radius: 25px;
+  width: 150px;
+}
+
+#hero {
+  min-height: 400px;
+}
+
+.wrapper {
+
+}
+
+.hero-img {
+  width: inherit;
+}
+
+.navbar-font * {
+  font-weight: 700;
+}
+
+#benefits > .container {
+  padding-top: 10rem;
+  text-align: center;
+  padding-bottom: 8rem;
+}
+
+.make-transfer-img {
+  width: inherit;
+}
+
+.joinus {
+  max-width: 45rem;
+}
+
+.btn-general:hover {
+  transition: .7s ease-in-out;
+}
+
+.bg-contact {
+  background-image: url("../img/e-wallet7.jpeg");
+  background-position: center;
+  background-size: cover;
+}
+
+#contact textarea {
+  resize: none;
+  border-radius: 25px;
+  height: 200px;
+  padding: 1rem;
+}
+
+@media only screen and (max-width: 767px) {
+  .navbar-sm-none {
+    display: none;
+  }
+
+  .hero-img, .make-transfer-img {
+    width: 20rem;
+    margin: 0 auto;
+  }
+
+  #make-transfer * {
+    margin: 1rem !important;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .sidebar-mid-none {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 480px) {
+  .brand-480 {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .brand-480 {
+    display: block;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .hero-header {
+    margin-top: 3rem;
+  }
+}
