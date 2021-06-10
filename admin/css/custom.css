@@ -27,14 +27,6 @@ form.user option {
   min-height: 400px;
 }
 
-.wrapper {
-
-}
-
-.hero-img {
-  width: inherit;
-}
-
 .navbar-font * {
   font-weight: 700;
 }
@@ -45,7 +37,11 @@ form.user option {
   padding-bottom: 8rem;
 }
 
-.make-transfer-img {
+#make-transfer {
+  min-height: 600px;
+}
+
+.vector-img {
   width: inherit;
 }
 
@@ -53,7 +49,7 @@ form.user option {
   max-width: 45rem;
 }
 
-.btn-general:hover {
+.btn-general:hover, .nav-link:hover {
   transition: .7s ease-in-out;
 }
 
@@ -75,7 +71,7 @@ form.user option {
     display: none;
   }
 
-  .hero-img, .make-transfer-img {
+  .vector-img {
     width: 20rem;
     margin: 0 auto;
   }
