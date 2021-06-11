@@ -66,6 +66,68 @@ form.user option {
   padding: 1rem;
 }
 
+.map-pin {
+  font-size: 20px;
+}
+
+.shop-search-input1 {
+  height: 3.5rem;
+}
+
+.box-shadow1 {
+  box-shadow: 1px 10px 10px #eee
+}
+
+#news-letter input[type=email] {
+  border-radius: 25px;
+  height: 3rem;
+  margin-right: .5rem;
+}
+
+
+#news-letter button {
+  height: 3rem;
+}
+
+#news-letter a {
+  color: white;
+  text-decoration: underline;
+}
+
+.height-15 {
+  height: 15rem;
+}
+
+.height-12 {
+  height: 12rem;
+}
+
+.shift-right-1 {
+  position: relative;
+  left: 2rem;
+}
+
+.shift-top-1 {
+  position: relative;
+  bottom: 2rem;
+}
+
+.shift-bottom-1 {
+  position: relative;
+  top: 2rem;
+}
+
+.shift-left-1 {
+  position: relative;
+  right: 2rem;
+}
+
+.container-small {
+  max-width: 50rem;
+}
+
+
+
 @media only screen and (max-width: 767px) {
   .navbar-sm-none {
     display: none;
@@ -79,6 +141,16 @@ form.user option {
   #make-transfer * {
     margin: 1rem !important;
   }
+
+  #news-letter .news-letter {
+    display: block !important;
+  }
+
+  #news-letter .news-letter button {
+    margin-top: 1rem;
+    width: 100%;
+  }
+
 }
 
 @media only screen and (min-width: 768px) {
@@ -102,5 +174,11 @@ form.user option {
 @media only screen and (min-width: 992px) {
   .hero-header {
     margin-top: 3rem;
+  }
+}
+
+@media only screen and (max-width: 1023px) {
+  .hide-1023 {
+    display: none;
   }
 }
