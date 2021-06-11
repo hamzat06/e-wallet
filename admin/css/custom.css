@@ -27,6 +27,17 @@ form.user option {
   min-height: 400px;
 }
 
+#hero .card:hover {
+  border-color: #17a2b8;
+  color: #17a2b8;
+  box-shadow: 1px 10px 10px #17a2b8
+}
+
+#hero input.form-control:focus {
+  border-color: #17a2b8 !important;
+  box-shadow: 1px 1px 10px #17a2b8;
+}
+
 .navbar-font * {
   font-weight: 700;
 }
@@ -78,10 +89,15 @@ form.user option {
   box-shadow: 1px 10px 10px #eee
 }
 
-#news-letter input[type=email] {
+#news-letter input.form-control {
   border-radius: 25px;
   height: 3rem;
   margin-right: .5rem;
+}
+
+#news-letter input:focus {
+  border-color: #fff !important;
+  box-shadow: 1px 1px 10px #fff;
 }
 
 
