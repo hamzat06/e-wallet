@@ -142,6 +142,10 @@ form.user option {
   max-width: 50rem;
 }
 
+.hero-icons {
+  font-size: 3rem;
+}
+
 
 
 @media only screen and (max-width: 767px) {
@@ -195,6 +199,6 @@ form.user option {
 
 @media only screen and (max-width: 1023px) {
   .hide-1023 {
-    display: none;
+    display: none !important;
   }
 }
