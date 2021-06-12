@@ -23,6 +23,10 @@ form.user option {
   width: 150px;
 }
 
+.btn-general-alt {
+  width: 150px;
+}
+
 #hero {
   min-height: 400px;
 }
@@ -50,6 +54,10 @@ form.user option {
 
 #make-transfer {
   min-height: 600px;
+}
+
+.ease-in-out {
+  transition: .5s ease-in-out;
 }
 
 .vector-img {
@@ -90,9 +98,10 @@ form.user option {
 }
 
 #news-letter input.form-control {
-  border-radius: 25px;
-  height: 3rem;
+  /* border-radius: 25px; */
+  height: 3.5rem;
   margin-right: .5rem;
+  box-shadow: 1px 1px 10px #17a2b8;
 }
 
 #news-letter input:focus {
@@ -102,7 +111,7 @@ form.user option {
 
 
 #news-letter button {
-  height: 3rem;
+  height: 3.5rem;
 }
 
 #news-letter a {
